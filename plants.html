@@ -14,6 +14,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
         integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
         crossorigin="anonymous"></script>
+        
 </head>
 
 <body>
@@ -36,12 +37,99 @@
             <div class="col-md">Umbrella plant</div>
         </div>
     </div>
+    
 
     <br>
     <p>Plants name row breaks first. col-md div break first while changing the size of browser size. 
         At 765x728 it is breaking vertically.</p>
 
+    <div class="container">
+        <img src="Magnolia.jpg", class="img-fluid", alt="Magnolia",height="250",width="500" >
+        <img src="Nerine.jpg", class="img-fluid", alt="Nerine",height="250",width="500">
+        <img src="Curcuma.jpg", class="img-fluid" ,alt="Curcuma",height="250",width="500">
+    </div><br>
+    <div class="container">
+        <img src="Magnolia.jpg", class="img-thumbnail", alt="Magnolia",height="250",width="500" >
+        <img src="Nerine.jpg", class="img-thumbnail", alt="Nerine",height="250",width="500">
+        <img src="Curcuma.jpg", class="img-thumbnail" ,alt="Curcuma",height="250",width="500">
+    </div>
+    <div class="container">
+        <table class="table table-info table-striped table-hover table-responsive" style="text-align: center;">
+            <caption >Table consists of Plants, Mountains and Lakes.</caption>
 
+            <thead class="table-danger">
+                <tr style="color: blue;">
+                  <th scope="col">Letter</th>
+                  <th scope="col">Plant</th>
+                  <th scope="col">Mountain</th>
+                  <th scope="col">Lake</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                    <td>M</td>
+                    <td>Magnolia</td>
+                    <td>MOL LEN</td>
+                    <td>Maggiore</td>
+                </tr>
+                <tr>
+                    <td>A</td>
+                    <td>ACACIA</td>
+                    <td>Anamudi</td>
+                    <td>Aberdeen Lake</td>
+                </tr>
+                <tr>
+                    <td>N</td>
+                    <td>NERINE</td>
+                    <td>Naltar Peak</td>
+                    <td>Nagarjuna Sagar Reservoir</td>
+                </tr>
+                <tr>
+                    <td>C</td>
+                    <td>Curcuma</td>
+                    <td>Canigo</td>
+                    <td>Cahora Bassa</td>
+                </tr>
+                <tr>
+                    <td>H</td>
+                    <td>Hakea</td>
+                    <td>high willhays</td>
+                    <td>Hago Lake</td>
+                <tr>
+                    <td>U</td>
+                    <td>Umbrella plant</td>
+                    <td>Uludoruk</td>
+                    <td>Ubinskoe Lake</td>
+                  </tr>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <label>BUTTONS</label>
+    <div class="btn">
+        <button type="button" class="btn btn-outline-dark">M</button>
+        <button type="button" class="btn btn-outline-dark">A</button>
+        <button type="button" class="btn btn-outline-dark">N</button>
+        <button type="button" class="btn btn-outline-dark">C</button>
+        <button type="button" class="btn btn-outline-dark">H</button>
+        <button type="button" class="btn btn-outline-dark">U</button>
+    </div>
+    <br>
+    <label>Button Groups</label>
+    <div class="container btn-toolbar">
+    <div class="btn-group" role="group" aria-label="Img Plants">
+        <button type="button" class="btn btn-success">M</button>
+        <button type="button" class="btn btn-success">A</button>
+        <button type="button" class="btn btn-success">N</button>
+    </div>
+    <div class="btn-group" role="group" aria-label="Letters Plants">
+        <button type="button" class="btn btn-warning">C</button>
+        <button type="button" class="btn btn-warning">H</button>
+    </div>
+    <div class="btn-group" role="group" aria-label="Remaining Plants">
+        <button type="button" class="btn btn-danger">U</button>
+    </div>
+</div>
 </body>
 
 </html>
